@@ -11,15 +11,22 @@
             box-sizing: border-box;
         }
 
-        body {
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #FFB6D9 0%, #FFC0E0 50%, #FFD4E5 100%);
-            overflow: hidden;
-        }
+    body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+
+    /* UBAH INI */
+    align-items: flex-start;  
+
+    min-height: 100vh;
+    padding: 40px 0; /* kasih ruang atas bawah */
+    
+    background: linear-gradient(135deg, #FFB6D9 0%, #FFC0E0 50%, #FFD4E5 100%);
+
+    /* HAPUS overflow:hidden */
+}
+
 
         .container {
             text-align: center;
